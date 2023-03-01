@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    /* border:1px solid black; */
+    padding: 1%;
+    width: 95%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 40%;
+}
+
+table tr th{
+    border-bottom: 2px solid black;
+    padding: 2px;
+    text-align: left;
+}
+
+table tr td{
+    padding-bottom: 1%;
+    padding-left: 0.5%;
+    padding-top: 1%;
+    font-size: 12px;
+
+}
+ .btn{
+     margin: 5px;
+ }
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #0b6ed1;
+}
+.btn-secondary{
+    background-color: #1bb134;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 2px;
+}
+.btn-secondary:hover{
+    background-color: #129227;
+}
+.btn-danger{
+    background-color: #e72c0c;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 2px;
+}
+.btn-danger:hover{
+    background-color: #c82407;
+}
+.success{
+    color: #05951d;
+   
+}
+
+.error{
+    color: #c82407;
+   
+}
+
+/* css for menu */
+.menu{
+    border-bottom: 1px solid black;
+    position: sticky;
+}
+.menu ul{
+    list-style-type:none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#ff5871 ;
+}
+.menu ul li a:hover{
+    color: #e43852 ;
+}
+
+
+
+
+/* css for main-content */
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+.col-4{
+    width: 19%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+
+
+/* css for footer */
+.footer{
+    background: #ff4757;
+    color: white;
+}
+
+/* css or login */
+.login{
+    border: 1px solid rgba(32, 31, 31, 0.226);
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+    border-radius: 15px;
+    background-color: rgba(206, 206, 206, 0.342);
+   
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(59, 56, 56);
+    border-radius: 0;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: 550;
+    outline: none;
+}
+.login-btn{
+    border-radius: 8px;
+    font-weight: 550;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(255, 100, 152);
+    padding: 10px;
+    border:none;
+    align-items: center;
+}
+
+.login-btn:hover{
+    background-color: rgb(252, 78, 136);
+}
+
+ /* tushar link  */
+ .created{
+    font-size: 11px;
+    
+ }

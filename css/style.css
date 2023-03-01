@@ -1,0 +1,385 @@
+/* 
+    Author: Vijay Thapa;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 90%;
+    border: 3px solid #85848430;
+    border-radius: 50%;
+    box-shadow: #2f3542;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.small{
+    font-size: 10px;
+    padding: 5px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-black{
+    color: rgb(0, 0, 0);
+}
+.text-white{
+    color: rgb(255, 255, 255);
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+    margin: 1%;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    color: black;
+    text-align: center;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.error{
+    /* font-weight: 800; */
+    padding: 2%;
+    background: #dd09091c;
+    color: #ff0000;
+    margin: auto;
+}
+
+.success{
+    /* font-weight: 800; */
+    padding: 2%;
+    background: #33dd092e;
+    color: #1fa531;
+    margin: auto;
+}
+
+/* css for updatepassword */
+.UPcontainer{
+    
+    margin-top: 10%;
+}
+
+
+/* css for forgot section */
+div.popup-container div.popup div.forgot-btn{
+    text-align: right;
+}
+
+div.popup-container div.popup div.forgot-btn button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* css for login registration page*/
+.popup-container{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0f020442;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+
+.popup{
+    background-color: #ececec;
+    width: 350px;
+    border-radius: 5px;
+    padding: 20px 25px 30px 25px;
+}
+
+.popup h2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.popup h2 button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    font-weight: 550;
+    color: #3d4046;
+}
+
+.popup input{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(59, 56, 56);
+    border-radius: 0;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: 550;
+    outline: none;
+}
+.login-btn, div.forgot button.reset-btn{
+    font-weight: 550;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(255, 100, 152);
+    padding: 10px;
+    border:none;
+    align-items: center;
+}
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.cake-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.cake-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+
+.box-3{
+    width: 21%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.cake-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.cake-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.cake-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.cake-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.cake-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.cake-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 52%;
+    margin: 0 auto;
+    background: #ffffffab;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+.dropdown{
+    padding: 1px;
+    margin: 3px;
+    font-style: italic;
+    background: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .cake-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .cake-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .cake-menu{
+        padding: 20% 0;
+    }
+
+    .cake-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
